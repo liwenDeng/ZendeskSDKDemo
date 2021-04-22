@@ -1,0 +1,46 @@
+PODS:
+  - ZendeskSDKConversationKit (0.4.0):
+    - ZendeskSDKFayeClient (~> 0.4.0)
+    - ZendeskSDKHTTPClient (~> 0.4.0)
+    - ZendeskSDKStorage (~> 0.4.0)
+  - ZendeskSDKFayeClient (0.4.0):
+    - ZendeskSDKLogger (~> 0.4.0)
+    - ZendeskSDKSocketClient (~> 0.4.0)
+  - ZendeskSDKHTTPClient (0.4.0):
+    - ZendeskSDKLogger (~> 0.4.0)
+  - ZendeskSDKLogger (0.4.0)
+  - ZendeskSDKMessaging (1.0.1):
+    - ZendeskSDKConversationKit (~> 0.4.0)
+    - ZendeskSDKUIComponents (~> 0.4.1)
+  - ZendeskSDKSocketClient (0.4.0)
+  - ZendeskSDKStorage (0.4.0):
+    - ZendeskSDKLogger (~> 0.4.0)
+  - ZendeskSDKUIComponents (0.4.1)
+
+DEPENDENCIES:
+  - ZendeskSDKMessaging
+
+SPEC REPOS:
+  trunk:
+    - ZendeskSDKConversationKit
+    - ZendeskSDKFayeClient
+    - ZendeskSDKHTTPClient
+    - ZendeskSDKLogger
+    - ZendeskSDKMessaging
+    - ZendeskSDKSocketClient
+    - ZendeskSDKStorage
+    - ZendeskSDKUIComponents
+
+SPEC CHECKSUMS:
+  ZendeskSDKConversationKit: 8f7360f46d2beb3c45e037d7b91b9d4f560bfd5f
+  ZendeskSDKFayeClient: 441eeeaa70c335816a1fbf096b34eb277ba3f012
+  ZendeskSDKHTTPClient: b7183f5129da0e08b4fdaa6a6367f0b10e02373b
+  ZendeskSDKLogger: 13cfa0ad182261adcfaaa9881af02238ae6cbe5a
+  ZendeskSDKMessaging: 21ca5b0a7b65b8d251bba1a8ea64c02f1c6db4de
+  ZendeskSDKSocketClient: a976ed094545fa177d2923a163882fb5f42bb518
+  ZendeskSDKStorage: 5463eefa0ca3584dd18957b28cb7bb3a6f1bff5e
+  ZendeskSDKUIComponents: 574028dc2f4cf9c9821e92416bc861d53886251c
+
+PODFILE CHECKSUM: c334f23eb82f11b6a16030e4a12a4cfffc913370
+
+COCOAPODS: 1.10.0
