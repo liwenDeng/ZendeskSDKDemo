@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     private var status: InitStatus = .notReady
-    private let channelKey = #Your ChannelKey#
+    private let channelKey = "eyJzZXR0aW5nc191cmwiOiJodHRwczovL2NvcnA5ODY2LnplbmRlc2suY29tL21vYmlsZV9zZGtfYXBpL3NldHRpbmdzLzAxRjMyQjRKNTBRN1lTUDBCQ1FKS1FNWFRTLmpzb24ifQ=="
     
     private var messaging: ZendeskSDKMessaging.Messaging?
     
